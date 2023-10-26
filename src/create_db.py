@@ -31,8 +31,8 @@ cur.execute("""
 
 cur.execute("""
     CREATE TABLE vacancies (
+        id_vacancy INT PRIMARY KEY,
         id_employer INT,
-        id_vacancies SERIAL PRIMARY KEY,
         name_vacancy VARCHAR(100),
         url_vacancy VARCHAR(200),
         salary INT
