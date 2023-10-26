@@ -1,6 +1,6 @@
-from hh_parser import get_vacancies, get_name_company
+from src.hh_parser import get_vacancies, get_name_company
 
-from config_db import params
+from src.config_db import params
 
 import psycopg2
 

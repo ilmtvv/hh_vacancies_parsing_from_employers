@@ -1,6 +1,6 @@
 import requests
 
-from employers_id import list_of_employers_id
+from src.employers_id import list_of_employers_id
 
 
 def get_vacancies(url_employer: str) -> list:

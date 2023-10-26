@@ -1,4 +1,4 @@
-from config_db import params
+from src.config_db import params
 
 import psycopg2
 
