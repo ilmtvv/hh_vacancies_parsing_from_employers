@@ -1,12 +1,13 @@
 [tool.poetry]
-name = "kw-5-ilya-matveev"
+name = "kw"
 version = "0.1.0"
 description = ""
-authors = ["Your Name <you@example.com>"]
+authors = ["il <il@>"]
 readme = "README.md"
 
 [tool.poetry.dependencies]
-python = "^3.12"
+python = "^3.11"
+psycopg2 = "^2.9.9"
 
 
 [build-system]
